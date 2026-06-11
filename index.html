@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3084 Franklin Canyon Drive | Exclusive Single-Property Showcase</title>
+    <meta name="description" content="Experience architectural majesty at 3084 Franklin Canyon Drive, an ultra-luxury modern cliffside estate featuring heated infinity pools, marble kitchens, smart automation, and gorgeous panoramic views.">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="styles.css?v=23">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header id="main-header">
+        <div class="nav-container">
+            
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="living-room.html">Living Room</a></li>
+                    <li><a href="dining-room.html">Dining Room</a></li>
+                    <li><a href="master-suite.html">Master Suite</a></li>
+                    <li class="dropdown">
+                        <a href="bedroom-2.html" class="dropdown-trigger">Bedrooms <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="bedroom-2.html">Bedroom 2</a></li>
+                            <li><a href="bedroom-3.html">Bedroom 3</a></li>
+                            <li><a href="bedroom-4.html">Bedroom 4</a></li>
+                            <li><a href="bedroom-5.html">Bedroom 5</a></li>
+                            <li><a href="bedroom-6.html">Bedroom 6</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="pool.html">Pool</a></li>
+                    <li><a href="foyer.html">Foyer</a></li>
+                    <li><a href="outside.html">Outside</a></li>
+                    <li><a href="floor-plan.html">Floor Plan</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle visual theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                
+                <h1 class="hero-title">An Sanctuary of Modern Architectural Majesty</h1>
+                
+                <div class="hero-meta">
+                    <div class="hero-meta-item">
+                        <div class="hero-meta-value">$4,495,000</div>
+                        <div class="hero-meta-label">Asking Price</div>
+                    </div>
+                    <div class="hero-meta-item">
+                        <div class="hero-meta-value">4,073 sq ft</div>
+                        <div class="hero-meta-label">Interior Area</div>
+                    </div>
+                    <div class="hero-meta-item">
+                        <div class="hero-meta-value">6 Beds / 5 Baths</div>
+                        <div class="hero-meta-label">Accommodations</div>
+                    </div>
+                    <div class="hero-meta-item">
+                        <div class="hero-meta-value">Los Angeles, CA</div>
+                        <div class="hero-meta-label">Location</div>
+                    </div>
+                </div>
+
+                <div class="hero-cta-container">
+                    <a href="living-room.html" class="btn-primary">Explore The Estate</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brief Features Overview Grid -->
+        <section id="overview" class="section" style="display: none;">
+            <div class="section-header">
+                <span class="section-subtitle">Property Overview</span>
+                <h2 class="section-title">Designed for Unrivaled Elegance</h2>
+            </div>
+            
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="fas fa-compass"></i></div>
+                    <h3 class="overview-card-title">Optimal Orientation</h3>
+                    <p class="overview-card-desc">Perfectly oriented to capture optimal sunlight and breathtaking sunsets over the canyon valley.</p>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="fas fa-leaf"></i></div>
+                    <h3 class="overview-card-title">Sustainability First</h3>
+                    <p class="overview-card-desc">Equipped with 24kW integrated solar grids, battery backups, and smart climate optimization systems.</p>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="overview-card-title">Privacy & Security</h3>
+                    <p class="overview-card-desc">Fully gated driveway, smart facial-recognition access, and comprehensive multi-zone monitoring.</p>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="fas fa-wine-glass-alt"></i></div>
+                    <h3 class="overview-card-title">Entertainment Ready</h3>
+                    <p class="overview-card-desc">Features a dual-zone wine vault, outdoor culinary kitchen, and custom wellness amenities.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Room Explorer Section -->
+        <section id="details" class="section" style="display: none;">
+            <div class="section-header">
+                <span class="section-subtitle">Space Exploration</span>
+                <h2 class="section-title">Inside 3084 Franklin Canyon Drive</h2>
+            </div>
+
+            <div class="explorer-container">
+                <!-- Visuals Slider -->
+                <div class="explorer-visual">
+                    <div class="explorer-image-wrapper active" data-room="master_bedroom">
+                        <img src="images/Master Suite/Master Bathroom 1.jpg" alt="3084 Franklin Canyon Drive Master Suite">
+                    </div>
+                    <div class="explorer-image-wrapper" data-room="bedroom_2">
+                        <img src="images/Bedrooms/Bedroom 2/Bathroom 2.jpg" alt="3084 Franklin Canyon Drive Bedroom Two">
+                    </div>
+                    <div class="explorer-image-wrapper" data-room="bedroom_3">
+                        <img src="images/Bedrooms/Bedroom 3/Bedroom 3 - upper level.jpg" alt="3084 Franklin Canyon Drive Bedroom Three">
+                    </div>
+                    <div class="explorer-image-wrapper" data-room="kitchen">
+                        <img src="images/Kitchen/Kitchen 1.jpg" alt="3084 Franklin Canyon Drive Chef's Kitchen">
+                    </div>
+                    <div class="explorer-image-wrapper" data-room="pool">
+                        <img src="images/Pool/Pool 1 - Night.jpg" alt="3084 Franklin Canyon Drive Infinity Pool">
+                    </div>
+                    <div class="explorer-image-wrapper" data-room="living_room">
+                        <img src="images/Living Room/Living Room 1.jpg" alt="3084 Franklin Canyon Drive Living Room">
+                    </div>
+                </div>
+
+                <!-- Room Specifications & Details -->
+                <div class="explorer-info">
+                    <div class="explorer-tabs">
+                        <button class="explorer-tab-btn active" data-room="master_bedroom">Master Suite</button>
+                        <button class="explorer-tab-btn" data-room="bedroom_2">Bedroom 2</button>
+                        <button class="explorer-tab-btn" data-room="bedroom_3">Bedroom 3</button>
+                        <button class="explorer-tab-btn" data-room="kitchen">Kitchen</button>
+                        <button class="explorer-tab-btn" data-room="pool">Infinity Pool</button>
+                        <button class="explorer-tab-btn" data-room="living_room">Living Room</button>
+                    </div>
+
+                    <!-- Room Contents -->
+                    <!-- 1. Master Bedroom -->
+                    <div class="room-content active" data-room="master_bedroom">
+                        <h3 class="room-title">The Grand Master Suite</h3>
+                        <p class="room-desc">A sanctuary of pure indulgence. The master suite features floor-to-ceiling panoramic sliding glass panels that frame majestic canyon vistas. Features include a bespoke walnut statement wall, dual integrated fireplaces, an expansive walk-in dressing wardrobe, and a Calacatta marble spa bath with an outdoor wellness terrace.</p>
+                        <ul class="room-specs">
+                            <li>
+                                <span class="room-spec-label">Dimensions</span>
+                                <span class="room-spec-value">28' x 20'</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Unique Finishings</span>
+                                <span class="room-spec-value">Calacatta Marble & Walnut</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Ceiling Height</span>
+                                <span class="room-spec-value">12.5 ft Vaulted</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Level</span>
+                                <span class="room-spec-value">Upper Wing</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 2. Bedroom 2 -->
+                    <div class="room-content" data-room="bedroom_2">
+                        <h3 class="room-title">VIP Guest Suite (Bedroom 2)</h3>
+                        <p class="room-desc">Designed with matching luxury hospitality standards, the second bedroom serves as an inviting sanctuary. The room includes organic white textured plaster walls, rich oak panelling, a custom floating vanity bathroom, and private glass doors opening to a scenic side-deck terrace surrounded by lush greenery.</p>
+                        <ul class="room-specs">
+                            <li>
+                                <span class="room-spec-label">Dimensions</span>
+                                <span class="room-spec-value">18' x 16'</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Unique Finishings</span>
+                                <span class="room-spec-value">Brushed Oak & Textured Plaster</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Ceiling Height</span>
+                                <span class="room-spec-value">10.5 ft</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Level</span>
+                                <span class="room-spec-value">Lower Wing (East)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 3. Bedroom 3 -->
+                    <div class="room-content" data-room="bedroom_3">
+                        <h3 class="room-title">Daybed Suite & Office (Bedroom 3)</h3>
+                        <p class="room-desc">A highly adaptable architectural space configured as a cozy retreat or professional home studio. High-end built-in bookshelves with bronze and brass details provide excellent workspace storage. Features a luxury custom layout with a daybed nook overlooking the structural rock garden.</p>
+                        <ul class="room-specs">
+                            <li>
+                                <span class="room-spec-label">Dimensions</span>
+                                <span class="room-spec-value">15' x 14'</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Unique Finishings</span>
+                                <span class="room-spec-value">Bespoke Walnut & Brass Joinery</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Ceiling Height</span>
+                                <span class="room-spec-value">10.5 ft</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Level</span>
+                                <span class="room-spec-value">Lower Wing (West)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 4. Kitchen -->
+                    <div class="room-content" data-room="kitchen">
+                        <h3 class="room-title">Chef's Culinary Studio</h3>
+                        <p class="room-desc">An epicurean dream combining design precision with high-performance culinary machinery. Centered by a massive custom-carved Calacatta marble waterfall island, the kitchen includes Gaggenau double-ovens, professional induction burners, integrated Sub-Zero refrigeration, and hand-milled stained oak cabinetry.</p>
+                        <ul class="room-specs">
+                            <li>
+                                <span class="room-spec-label">Dimensions</span>
+                                <span class="room-spec-value">22' x 18'</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Unique Finishings</span>
+                                <span class="room-spec-value">Waterfall Marble & Stained Oak</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Appliances</span>
+                                <span class="room-spec-value">Gaggenau & Sub-Zero</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Level</span>
+                                <span class="room-spec-value">Main Level</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 5. Pool -->
+                    <div class="room-content" data-room="pool">
+                        <h3 class="room-title">Heated Horizon Infinity Pool</h3>
+                        <p class="room-desc">The ultimate outdoor centerpiece of the estate. Tucked into the cliffside terrace, the heated infinity-edge swimming pool cascades toward the breathtaking valley floor below. Flanked by an elegant Brazilian Ipe hardwood sun deck, comfortable chaise loungers, and an integrated fireside lounge table.</p>
+                        <ul class="room-specs">
+                            <li>
+                                <span class="room-spec-label">Dimensions</span>
+                                <span class="room-spec-value">55 ft x 18 ft</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Decking</span>
+                                <span class="room-spec-value">Premium Brazilian Ipe Decking</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Heating</span>
+                                <span class="room-spec-value">Solar & Gas Dual System</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Level</span>
+                                <span class="room-spec-value">Terrace Deck</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 6. Living Room -->
+                    <div class="room-content" data-room="living_room">
+                        <h3 class="room-title">Double-Height Living Salon</h3>
+                        <p class="room-desc">A magnificent open salon built to gather and captivate. High-volume, double-height ceilings combine with massive structural concrete columns and an elegant floating bronze fireplace. Triple-pane glass sliders retract completely to merge interior comforts with the main pool terrace deck.</p>
+                        <ul class="room-specs">
+                            <li>
+                                <span class="room-spec-label">Dimensions</span>
+                                <span class="room-spec-value">32' x 24'</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Unique Finishings</span>
+                                <span class="room-spec-value">Polished Terrazzo & Bronze</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Ceiling Height</span>
+                                <span class="room-spec-value">22 ft double-height</span>
+                            </li>
+                            <li>
+                                <span class="room-spec-label">Level</span>
+                                <span class="room-spec-value">Main Level</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Floor Plan Section -->
+        <section id="floorplan" class="section" style="display: none;">
+            <div class="section-header">
+                <span class="section-subtitle">Structural Layout</span>
+                <h2 class="section-title">The Floor Plan Blueprint</h2>
+            </div>
+
+            <div class="floorplan-layout">
+                <!-- SVG Floorplan -->
+                <div class="floorplan-svg-container">
+                    <svg class="floorplan-svg" viewBox="0 0 800 500">
+                        <!-- Outer Deck Boundary -->
+                        <rect x="30" y="30" width="740" height="440" fill="none" stroke="var(--border-color)" stroke-width="1" />
+                        
+                        <!-- Heated Infinity Pool Shape -->
+                        <rect class="floorplan-room" data-room="pool" x="420" y="320" width="320" height="120" rx="5" />
+                        <text class="floorplan-label" x="580" y="385">INFINITY POOL & DECK</text>
+                        
+                        <!-- Master Suite Shape -->
+                        <rect class="floorplan-room" data-room="master_bedroom" x="520" y="50" width="220" height="230" rx="5" />
+                        <text class="floorplan-label" x="630" y="165">MASTER SUITE</text>
+                        
+                        <!-- Living Salon Shape -->
+                        <rect class="floorplan-room" data-room="living_room" x="250" y="50" width="250" height="230" rx="5" />
+                        <text class="floorplan-label" x="375" y="165">LIVING SALON</text>
+                        
+                        <!-- Kitchen Shape -->
+                        <rect class="floorplan-room" data-room="kitchen" x="50" y="50" width="180" height="190" rx="5" />
+                        <text class="floorplan-label" x="140" y="145">CHEF'S KITCHEN</text>
+                        
+                        <!-- Bedroom 2 Shape -->
+                        <rect class="floorplan-room" data-room="bedroom_2" x="50" y="260" width="180" height="180" rx="5" />
+                        <text class="floorplan-label" x="140" y="355">GUEST BEDROOM 2</text>
+                        
+                        <!-- Bedroom 3 Shape -->
+                        <rect class="floorplan-room" data-room="bedroom_3" x="250" y="300" width="150" height="140" rx="5" />
+                        <text class="floorplan-label" x="325" y="375">STUDIO BEDROOM 3</text>
+                        
+                        <!-- Internal Walls -->
+                        <line class="floorplan-wall" x1="50" y1="50" x2="740" y2="50" />
+                        <line class="floorplan-wall" x1="50" y1="50" x2="50" y2="440" />
+                        <line class="floorplan-wall" x1="50" y1="440" x2="400" y2="440" />
+                        <line class="floorplan-wall" x1="740" y1="50" x2="740" y2="280" />
+                        
+                        <line class="floorplan-wall" x1="230" y1="50" x2="230" y2="240" />
+                        <line class="floorplan-wall" x1="500" y1="50" x2="500" y2="280" />
+                        <line class="floorplan-wall" x1="520" y1="280" x2="740" y2="280" />
+                        <line class="floorplan-wall" x1="250" y1="240" x2="250" y2="440" />
+                        <line class="floorplan-wall" x1="50" y1="250" x2="230" y2="250" />
+                        
+                        <line class="floorplan-glass" x1="250" y1="280" x2="500" y2="280" />
+                        <line class="floorplan-glass" x1="520" y1="230" x2="520" y2="280" />
+                        
+                        <!-- Technical Steps -->
+                        <g class="floorplan-steps">
+                            <line x1="235" y1="300" x2="245" y2="300" />
+                            <line x1="235" y1="310" x2="245" y2="310" />
+                            <line x1="235" y1="320" x2="245" y2="320" />
+                            <line x1="235" y1="330" x2="245" y2="330" />
+                            <line x1="235" y1="340" x2="245" y2="340" />
+                            <line x1="235" y1="350" x2="245" y2="350" />
+                            <line x1="235" y1="360" x2="245" y2="360" />
+                        </g>
+                    </svg>
+                </div>
+
+                <!-- Info panel & interactive trigger items -->
+                <div class="floorplan-info-panel">
+                    <div class="floorplan-instructions">
+                        <p><i class="fas fa-mouse-pointer" style="margin-right: 8px;"></i> Click directly on any room inside the architectural blueprint to view details, specifications, and interior high-resolution images above.</p>
+                    </div>
+
+                    <div class="floorplan-room-list">
+                        <div class="floorplan-room-item active" data-room="master_bedroom">
+                            <span class="floorplan-room-name">The Grand Master Suite</span>
+                            <span class="floorplan-room-level">Upper Wing</span>
+                        </div>
+                        <div class="floorplan-room-item" data-room="living_room">
+                            <span class="floorplan-room-name">Double-Height Living Salon</span>
+                            <span class="floorplan-room-level">Main Level</span>
+                        </div>
+                        <div class="floorplan-room-item" data-room="kitchen">
+                            <span class="floorplan-room-name">Chef's Culinary Studio</span>
+                            <span class="floorplan-room-level">Main Level</span>
+                        </div>
+                        <div class="floorplan-room-item" data-room="bedroom_2">
+                            <span class="floorplan-room-name">VIP Guest Suite (Bedroom 2)</span>
+                            <span class="floorplan-room-level">Lower Wing (East)</span>
+                        </div>
+                        <div class="floorplan-room-item" data-room="bedroom_3">
+                            <span class="floorplan-room-name">Daybed Suite & Office (Bedroom 3)</span>
+                            <span class="floorplan-room-level">Lower Wing (West)</span>
+                        </div>
+                        <div class="floorplan-room-item" data-room="pool">
+                            <span class="floorplan-room-name">Heated Horizon Infinity Pool</span>
+                            <span class="floorplan-room-level">Terrace Deck</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Immersive Photo Gallery -->
+        <section id="gallery" class="section" style="display: none;">
+            <div class="section-header">
+                <span class="section-subtitle">Visual Index</span>
+                <h2 class="section-title">Architectural Gallery</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item col-8 row-2" data-src="images/Outside/Deck 1.jpg">
+                    <img src="images/Outside/Deck 1.jpg" alt="3084 Franklin Canyon Drive Dusk Facade">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Exterior</span>
+                        <h3 class="gallery-item-title">Sunset Architectural Facade</h3>
+                    </div>
+                </div>
+                <div class="gallery-item col-4" data-src="images/Master Suite/Master Bathroom 1.jpg">
+                    <img src="images/Master Suite/Master Bathroom 1.jpg" alt="3084 Franklin Canyon Drive Master Bed">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Interior</span>
+                        <h3 class="gallery-item-title">Master Suite Suite Nook</h3>
+                    </div>
+                </div>
+                <div class="gallery-item col-4" data-src="images/Kitchen/Kitchen 1.jpg">
+                    <img src="images/Kitchen/Kitchen 1.jpg" alt="3084 Franklin Canyon Drive Marble Kitchen">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Interior</span>
+                        <h3 class="gallery-item-title">Waterfall Culinary Kitchen</h3>
+                    </div>
+                </div>
+                <div class="gallery-item col-6" data-src="images/Pool/Pool 1 - Night.jpg">
+                    <img src="images/Pool/Pool 1 - Night.jpg" alt="3084 Franklin Canyon Drive Pool Area">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Outdoor</span>
+                        <h3 class="gallery-item-title">Infinity Horizon Pool</h3>
+                    </div>
+                </div>
+                <div class="gallery-item col-6" data-src="images/Living Room/Living Room 1.jpg">
+                    <img src="images/Living Room/Living Room 1.jpg" alt="3084 Franklin Canyon Drive Salon">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Interior</span>
+                        <h3 class="gallery-item-title">Double-Height Living Salon</h3>
+                    </div>
+                </div>
+                <div class="gallery-item col-4" data-src="images/Bedrooms/Bedroom 2/Bathroom 2.jpg">
+                    <img src="images/Bedrooms/Bedroom 2/Bathroom 2.jpg" alt="3084 Franklin Canyon Drive Guest Suite">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Interior</span>
+                        <h3 class="gallery-item-title">Guest Room Suite 2</h3>
+                    </div>
+                </div>
+                <div class="gallery-item col-4" data-src="images/Bedrooms/Bedroom 3/Bedroom 3 - upper level.jpg">
+                    <img src="images/Bedrooms/Bedroom 3/Bedroom 3 - upper level.jpg" alt="3084 Franklin Canyon Drive Work Studio">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Interior</span>
+                        <h3 class="gallery-item-title">Library Nook Bedroom 3</h3>
+                    </div>
+                </div>
+                <div class="gallery-item col-4" data-src="images/Outside/Deck 1.jpg">
+                    <img src="images/Outside/Deck 1.jpg" alt="3084 Franklin Canyon Drive Side Entry">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-tag">Exterior</span>
+                        <h3 class="gallery-item-title">Brazilian Timber Louvers</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Smart Tech & Amenities -->
+        <section id="amenities" class="section" style="display: none;">
+            <div class="section-header">
+                <span class="section-subtitle">Exquisite Details</span>
+                <h2 class="section-title">Home Technologies & Finishes</h2>
+            </div>
+
+            <div class="amenities-container">
+                <!-- Text Features -->
+                <div class="amenities-content">
+                    <div class="amenity-row">
+                        <div class="amenity-bullet"><i class="fas fa-laptop-house"></i></div>
+                        <div class="amenity-text">
+                            <h3 class="amenity-text-title">Savant Smart Automation</h3>
+                            <p class="amenity-text-desc">Control motorized window draperies, architectural ambient lights, sound systems, and climate control zones via integrated in-wall touch panels or your smartphone.</p>
+                        </div>
+                    </div>
+                    <div class="amenity-row">
+                        <div class="amenity-bullet"><i class="fas fa-temperature-low"></i></div>
+                        <div class="amenity-text">
+                            <h3 class="amenity-text-title">Multi-Zone Daikin VRV HVAC</h3>
+                            <p class="amenity-text-desc">Engineered variable refrigerant volume units that operate silently while maintaining perfect, filtered humidity-controlled indoor climates in separate wings.</p>
+                        </div>
+                    </div>
+                    <div class="amenity-row">
+                        <div class="amenity-bullet"><i class="fas fa-battery-three-quarters"></i></div>
+                        <div class="amenity-text">
+                            <h3 class="amenity-text-title">Grid Independence</h3>
+                            <p class="amenity-text-desc">Rooftop-integrated sleek photovoltaic solar panels paired with double-module Tesla Powerwall backing. Never lose power during canyon breezes.</p>
+                        </div>
+                    </div>
+                    <div class="amenity-row">
+                        <div class="amenity-bullet"><i class="fas fa-water"></i></div>
+                        <div class="amenity-text">
+                            <h3 class="amenity-text-title">Whole-House Hydration Purification</h3>
+                            <p class="amenity-text-desc">Industrial-grade custom charcoal filtering and softeners, providing fresh drinking tap water at every faucet and carbon-neutral landscape irrigation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visual Accent -->
+                <div class="amenities-visual">
+                    <img src="images/Living Room/Living Room 1.jpg" alt="3084 Franklin Canyon Drive Glass Living Room Details">
+                </div>
+            </div>
+        </section>
+
+        <!-- Location & Neighborhood Map Simulator -->
+        <section id="neighborhood" class="section">
+            <div class="section-header">
+                <span class="section-subtitle">The Setting</span>
+                <h2 class="section-title">Prime Canyon Location</h2>
+            </div>
+
+            <div class="map-container">
+                <!-- Map Simulator Layout -->
+                <div class="map-visual-wrapper">
+                    <!-- Real Google Maps Embed with Satellite view -->
+                    <iframe 
+                        src="https://maps.google.com/maps?q=34.12866380326366,-118.40724855716745&t=k&z=19&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        frameborder="0" 
+                        style="border:0; position: absolute; top:0; left:0;" 
+                        allowfullscreen="" 
+                        aria-hidden="false" 
+                        tabindex="0">
+                    </iframe>
+                </div>
+
+                <!-- Info lists -->
+                <div class="map-info-panel">
+                    <h3>Proximities & Neighborhood</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.9rem;">Perfectly isolated for absolute tranquility, yet moments away from the primary business hubs and leisure points of Southern California.</p>
+                    
+                    <div class="map-info-list">
+                        <div class="map-info-item active" data-point="villa">
+                            <span class="map-info-name">3084 Franklin Canyon Drive (Property Location)</span>
+                            <span class="map-info-distance">0.0 mi</span>
+                        </div>
+                        <div class="map-info-item" data-point="dining">
+                            <span class="map-info-name">Michelin Fine Dining Row</span>
+                            <span class="map-info-distance">4.2 mi (8 min)</span>
+                        </div>
+                        <div class="map-info-item" data-point="school">
+                            <span class="map-info-name">Heritage Academy Prep School</span>
+                            <span class="map-info-distance">6.5 mi (12 min)</span>
+                        </div>
+                        <div class="map-info-item" data-point="airport">
+                            <span class="map-info-name">Private Executive FBO Airport</span>
+                            <span class="map-info-distance">12.1 mi (18 min)</span>
+                        </div>
+                        <div class="map-info-item" data-point="beach">
+                            <span class="map-info-name">Sunset Sands Beach Access</span>
+                            <span class="map-info-distance">3.8 mi (7 min)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" aria-label="Close photo view">&times;</button>
+            <button class="lightbox-prev" aria-label="Previous photo"><i class="fas fa-chevron-left"></i></button>
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption">Sunset Architectural Facade</div>
+            <button class="lightbox-next" aria-label="Next photo"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3 class="footer-brand-title">3084 Franklin Canyon Drive</h3>
+                <p class="footer-brand-desc">A masterpiece of design and technology, representing the pinnacle of Southern California luxury living. Exclusively listed under private brokerage.</p>
+            </div>
+            <div>
+                <h4 class="footer-links-title">Information</h4>
+                <ul class="footer-links">
+                    <li><a href="#hero">Overview</a></li>
+                    <li><a href="#details">The Residence</a></li>
+                    <li><a href="#floorplan">Floor Plan</a></li>
+                    <li><a href="#gallery">Architectural Gallery</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-links-title">Exclusive Agencies</h4>
+                <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">Luxe Brokerage Partners LLC</p>
+                <p style="color: var(--text-muted); font-size: 0.8rem; line-height: 1.6;">DRE License #01882736<br>Beverly Hills Office Desk</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 3084 Franklin Canyon Drive. All Rights Reserved. Private Listing.</p>
+            <p>Designed with absolute privacy & architectural precision.</p>
+        </div>
+    </footer>
+
+    <!-- Custom App Script -->
+    <script src="app.js?v=5"></script>
+    <!-- Zoom Lightbox Engine -->
+    <script src="lightbox.js?v=1"></script>
+</body>
+</html>
+
+
