@@ -169,12 +169,9 @@ function initThemeToggle() {
     const themeBtn = document.getElementById('theme-toggle');
     const body = document.body;
 
-    // Load theme preference on init
-    const currentTheme = localStorage.getItem('theme');
-    if (currentTheme === 'light') {
-        body.classList.add('light-theme');
-        if (themeBtn) themeBtn.innerHTML = '<i class="fas fa-moon"></i>';
-    }
+    // Load theme preference on init - Always start in dark theme
+    body.classList.remove('light-theme');
+    if (themeBtn) themeBtn.innerHTML = '<i class="fas fa-sun"></i>';
 
     if (themeBtn) {
         themeBtn.addEventListener('click', () => {

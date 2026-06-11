@@ -248,17 +248,11 @@ function initThemeToggle() {
     const themeBtn = document.getElementById('theme-toggle');
     const body = document.body;
 
-    // Load theme preference on init
-    const savedTheme = localStorage.getItem('theme');
+    // Load theme preference on init - Always start in dark theme
     const icon = themeBtn ? themeBtn.querySelector('i') : null;
     
-    if (savedTheme === 'light') {
-        body.classList.add('light-theme');
-        if (icon) icon.className = 'fas fa-moon';
-    } else {
-        body.classList.remove('light-theme');
-        if (icon) icon.className = 'fas fa-sun';
-    }
+    body.classList.remove('light-theme');
+    if (icon) icon.className = 'fas fa-sun';
 
     if (themeBtn) {
         themeBtn.addEventListener('click', () => {
