@@ -474,4 +474,42 @@ body.light-theme .gallery-control-next:hover {
 /* Remove footer for detail pages as requested */
 footer { display: none !important; }
 
+/* E-Commerce Zoom Lens (highlights original thumbnail area) */
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid rgba(197, 168, 128, 0.5);
+    background: rgba(197, 168, 128, 0.12);
+    cursor: crosshair;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+    pointer-events: none;
+}
+
+/* E-Commerce Zoom Window (overlays the details specs panel) */
+.img-zoom-result {
+    position: absolute;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--bg-primary);
+    box-shadow: var(--shadow-lg);
+    background-repeat: no-repeat;
+    z-index: 99;
+    opacity: 0;
+    transition: opacity 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.slide-image-wrapper {
+    position: relative;
+    overflow: visible !important;
+}
+
+/* Keep the image static on hover to prevent coordinate drift */
+.gallery-slide:hover img {
+    transform: none !important;
+    transition: none !important;
+}
+
 
